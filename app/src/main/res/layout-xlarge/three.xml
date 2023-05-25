@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestFragment$PlaceholderFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:id="@+id/relative_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="abcd"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            /////////////////////
+
+            <RelativeLayout
+                android:id="@+id/relative_img_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/iv_question_img_img"
+                    android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/orange_color" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/iv_answer_option1_img_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_question_img_img"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_1_img_img"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/orange_color" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/iv_answer_option2_img_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/iv_question_img_img"
+                    android:layout_marginEnd="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_2_img_img"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/yellow" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/iv_answer_option3_img_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_answer_option1_img_img"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_3_img_img"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/black" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/iv_answer_option4_img_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/iv_answer_option1_img_img"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_4_img_img"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/blue" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+            ///////////////////////
+
+            //////////////////////////////
+
+            <RelativeLayout
+                android:id="@+id/relative_img_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/iv_question_img_text"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/orange_color" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option1_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_question_img_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/button_option1_img_text"
+                            android:layout_width="220dp"
+                            android:layout_height="100dp"
+                            android:textSize="17dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option2_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/iv_question_img_text"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/button_option2_img_text"
+                            android:layout_width="220dp"
+                            android:layout_height="100dp"
+                            android:textSize="17dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option3_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cv_answer_option1_img_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/button_option3_img_text"
+                            android:layout_width="220dp"
+                            android:layout_height="100dp"
+                            android:textSize="17dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option4_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/cv_answer_option2_img_text"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#000">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/button_option4_img_text"
+                            android:layout_width="220dp"
+                            android:layout_height="100dp"
+                            android:textSize="17dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+            //////////////////
+
+            /////////////////////////////////
+
+            <RelativeLayout
+                android:id="@+id/relative_sound_img_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/speaker"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/ic_volume_up"
+                    app:cb_color="#99CC00"
+                    app:cb_pressedRingWidth="8dip" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option1_sound_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/speaker"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_option1_sound_img_text"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp" />
+
+                        <Button
+                            android:id="@+id/button_option1_sound_img_text"
+                            android:layout_width="220dp"
+                            android:layout_height="100dp"
+                            android:layout_below="@id/iv_option1_sound_img_text"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option2_sound_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/speaker"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="50dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_option2_sound_img_text"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp" />
+
+                        <Button
+                            android:id="@+id/button_option2_sound_img_text"
+                            android:layout_width="210dp"
+                            android:layout_height="100dp"
+                            android:layout_below="@+id/iv_option2_sound_img_text"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option3_sound_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cv_answer_option1_sound_img_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_option3_sound_img_text"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp" />
+
+                        <Button
+                            android:id="@+id/button_option3_sound_img_text"
+                            android:layout_width="210dp"
+                            android:layout_height="100dp"
+                            android:layout_below="@id/iv_option3_sound_img_text"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cv_answer_option4_sound_img_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/cv_answer_option2_sound_img_text"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#000">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_option4_sound_img_text"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="2dp" />
+
+                        <Button
+                            android:id="@+id/button_option4_sound_img_text"
+                            android:layout_width="210dp"
+                            android:layout_height="100dp"
+                            android:layout_below="@id/iv_option4_sound_img_text"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+            ///////////////////
+
+
+            <Button
+                android:id="@+id/button_answer_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@id/relative_img_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Continue"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

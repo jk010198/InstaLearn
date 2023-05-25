@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="3dp"
+        android:background="#fff">
+
+        <com.yinglan.shadowimageview.ShadowImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="330dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            app:shadowColor="#a2a2a2"
+            app:shadowSrc="@drawable/cat" />
+
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/ib_sound"
+            android:lines="2"
+            android:text="name"
+            android:textColor="#0000ff"
+            android:textSize="18dp" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/ib_sound"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/ic_volume_up"
+            app:cb_color="#99CC00"
+            app:cb_pressedRingWidth="8dip" />
+
+    </RelativeLayout>
+</RelativeLayout>

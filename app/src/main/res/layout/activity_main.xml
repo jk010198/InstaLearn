@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_fruits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_fruits"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/bananas" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_fruits"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_fruits"
+                android:gravity="center"
+                android:text="Fruits"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_vegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_vegetables"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/capsicium" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_vegetables"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_vegetables"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Vegetables"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_colors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_fruits"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_Colors"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_below="@+id/ripple_fruits"
+                    android:layout_marginTop="10dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/blue" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_colors"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_colors"
+                android:gravity="center"
+                android:text="Colors"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_petanimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_fruits"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_petanimals"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/dog" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_petanimal"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_petanimal"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Pet Animals"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_wildanimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_colors"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_wildanimal"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/tiger" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_wildanimal"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_wildanimal"
+                android:gravity="center"
+                android:text="Wild Animals"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_farmanimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_colors"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_farmanimal"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/cow" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_farmanimal"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_wildanimal"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Farm Animals"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_sign_symbols"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_farmanimal"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_sign_symbols"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/no_smoking" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_sign_symbols"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_sign_symbols"
+                android:gravity="center"
+                android:text="Sign and Symbols"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_transportation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_farmanimal"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_transportation"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/metro" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_transpotation"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_transportation"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Transportation"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_sign_symbols"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_school"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/blackboard" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_school"
+                android:gravity="center"
+                android:text="School"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_emotions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_transpotation"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_emotions"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/happy" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/tv_emotions"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_emotions"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Emotions"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_community_helpers_occupations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_emotions"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_community_helpers_occupations"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/teacher_community_helper" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/ripple_community_helpers_occupations"
+                android:gravity="center"
+                android:text="Community Helpers Occupations"
+                android:textSize="20dp" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple_bodyparts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_emotions"
+                app:mrl_rippleColor="#e5e5e5"
+                app:mrl_rippleOverlay="true">
+
+                <com.yinglan.shadowimageview.ShadowImageView
+                    android:id="@+id/imageButton_bodyparts"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    app:shadowColor="#a2a2a2"
+                    app:shadowRound="20dp"
+                    app:shadowSrc="@drawable/eyes" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/ripple_bodyparts"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Body Parts"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

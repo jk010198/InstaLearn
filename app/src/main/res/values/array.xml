@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="fruits_name">
+        <item>Apple</item>
+        <item>Strawberries</item>
+        <item>Pomegranate</item>
+        <item>Bananas</item>
+        <item>Papaya</item>
+        <item>Pineapple</item>
+        <item>Pear</item>
+        <item>Orange</item>
+        <item>Watermelon</item>
+        <item>Grapes</item>
+        <item>Peach</item>
+        <item>Plum</item>
+        <item>Cherries</item>
+        <item>Chickoo</item>
+        <item>Mango</item>
+        <item>Litchis</item>
+    </string-array>
+
+    <string-array name="vegetables_name">
+        <item>Tomato</item>
+        <item>Green Peas</item>
+        <item>Brocolli</item>
+        <item>Corn</item>
+        <item>Cauliflower</item>
+        <item>Carrots</item>
+        <item>Cabbage</item>
+        <item>Cucumber</item>
+        <item>Spinach</item>
+        <item>Capsicum</item>
+        <item>Potatoes</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Green Chillies</item>
+        <item>Bottle Gourd</item>
+    </string-array>
+
+    <string-array name="colors_name">
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Gray</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Brown</item>
+    </string-array>
+
+    <string-array name="petanimals_name">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Rabbit</item>
+        <item>Parrot</item>
+        <item>Goldfish</item>
+        <item>Tortoise</item>
+    </string-array>
+
+    <string-array name="wildanimals_name">
+        <item>Tiger</item>
+        <item>Lion</item>
+        <item>Giraffe</item>
+        <item>Zebra</item>
+        <item>Bear</item>
+        <item>Elephant</item>
+        <item>Rhino</item>
+        <item>Deer</item>
+        <item>Snake</item>
+        <item>Crocodile</item>
+        <item>Monkey</item>
+        <item>Leopard</item>
+    </string-array>
+
+    <string-array name="farmanimal_name">
+        <item>Cow</item>
+        <item>Horse</item>
+        <item>Sheep</item>
+        <item>Goat</item>
+        <item>Donkey</item>
+        <item>Duck</item>
+        <item>Pig</item>
+    </string-array>
+
+    <string-array name="signs_symbols_name">
+        <item>Do Not Enter</item>
+        <item>Stop</item>
+        <item>Not Allowed</item>
+        <item>Go</item>
+        <item>No Smoking</item>
+        <item>Fire Extinguisher</item>
+        <item>Fire Hazard</item>
+        <item>Fire Alarm</item>
+        <item>Use Stairs in Case of Fire</item>
+        <item>No Shoes Allowed</item>
+        <item>Disabled or Wheelchair</item>
+        <item>No Mobile Phones Allowed</item>
+        <item>Zebra Crossing</item>
+        <item>No Jay Walking</item>
+        <item>No Pets Allowed</item>
+    </string-array>
+
+    <string-array name="transportation_name">
+        <item>Ambulance</item>
+        <item>Police Car</item>
+        <item>Garbage Truck</item>
+        <item>Mail Van</item>
+        <item>Truck</item>
+        <item>Taxi</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Aeroplane</item>
+        <item>Helicopter</item>
+        <item>Metro</item>
+    </string-array>
+
+    <string-array name="school_name">
+        <item>Blackboard</item>
+        <item>Table and Chair</item>
+        <item>School Bag</item>
+        <item>Water Bottle</item>
+        <item>Lunchbox</item>
+        <item>Crayons</item>
+        <item>Colour Pencils</item>
+        <item>Pencils</item>
+        <item>Sharpner</item>
+        <item>Ruler</item>
+        <item>Paintbrushes</item>
+        <item>Glue</item>
+        <item>Paints</item>
+        <item>Scissors</item>
+        <item>Eraser</item>
+        <item>School Canteen</item>
+        <item>Teacher</item>
+        <item>Classroom</item>
+    </string-array>
+
+    <string-array name="emotions_name">
+        <item>Happy</item>
+        <item>Unhappy</item>
+        <item>Angry</item>
+        <item>Shocked</item>
+        <item>In Love</item>
+        <item>Sad</item>
+    </string-array>
+
+    <string-array name="community_helpers_name">
+        <item>Teacher</item>
+        <item>Nurse</item>
+        <item>Doctor</item>
+        <item>Dentist</item>
+        <item>Policeman</item>
+        <item>Carpenter</item>
+        <item>Farmer</item>
+        <item>Vet</item>
+        <item>Fire Fighter</item>
+        <item>Sweepers</item>
+    </string-array>
+
+    <string-array name="bodyparts_name">
+        <item>Eyes</item>
+        <item>Nose</item>
+        <item>Ears</item>
+        <item>Lips</item>
+        <item>Teeth</item>
+        <item>Tongue</item>
+        <item>Cheeks</item>
+        <item>Hair</item>
+        <item>Eyebrows</item>
+        <item>Hand</item>
+        <item>Fingers</item>
+        <item>Nails</item>
+        <item>Thumb</item>
+        <item>Toes</item>
+        <item>Arm</item>
+        <item>Legs</item>
+        <item>Foot</item>
+        <item>Stomach</item>
+        <item>Back</item>
+        <item>Chest</item>
+    </string-array>
+
+</resources>
